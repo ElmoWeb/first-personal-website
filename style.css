@@ -1,0 +1,118 @@
+/*---------------NAVBAR-----------------*/
+.nav-elnaz {
+  background-color: #A67951;
+  padding: 0.5rem;
+}
+/* nav>div in içine bu classı ekleledim ki rengi değiştirebileyim */
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+ }
+/* Navbar'ın tepesi boşluk kalıyordu. o boşlukları silmek ve bootsratp defaultdakni override edebilmek için !important gerekiyormuş */
+
+ .logo-img {
+  border-radius: 50%;
+ }
+/*---------------HERO-----------------*/
+.background {
+  background-image: url('./resources/images/workspace.png');
+  background-size: cover;
+}
+
+.chatbox {
+  background-color: #FFFFFF;
+  border-radius: 5%;
+  margin: 5% 2% 7% 0%;
+  padding: 2%;
+}
+
+.main-title {
+  color: rgb(24, 22, 22) ;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.lead {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ----- buttons ----*/
+.btn-mo {
+  background-color: #958E48 !important;
+  color: white !important;
+}
+.btn-mo:hover {
+  background-color: #6b6634 !important;
+}
+
+.btn-outline-mo {
+  color: #6b6634 !important;
+  border: 1px solid #6b6634 !important;
+}
+
+.btn-outline-mo:hover {
+  color:#958E48 !important;
+  border: 1px solid #958E48 !important;
+}
+/*---------------RESUME SECTION ----------------*/
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #958E48;
+}
+
+.resume-heading {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+/*----------------ABOUT ME-----------------------*/
+.gradient-background {
+  background: linear-gradient(300deg, #A67951, #F2DCC2, #D8D9D7);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-me-box {
+  background-color: aliceblue;
+  color: black; 
+  border-radius: 5%;
+  width: 40rem;
+  height: 20rem;
+  padding: 2%;
+}
+
+.about-me-p {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #A66641;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*--------CONTACT ME-------*/
+
+.contact-me-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+/*--------FOOTER-----------*/
+
+.footer-div{
+  background-color: #8C593B;
+  padding-bottom: 0.2%;
+  padding-top: 0.5%;
+}
+.footer-item:hover {
+  background:#592405 !important;
+}
